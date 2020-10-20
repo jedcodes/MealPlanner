@@ -1,0 +1,17 @@
+.banner {
+  position: relative;
+  background-image: linear-gradient(
+    to right bottom,
+    $primary-header-light,
+    $primary-header-dark
+  );
+  height: 90vh;
+  clip-path: circle(180vh at 50% -90vh);
+
+  &__content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}

@@ -1,0 +1,45 @@
+body {
+  font-family: "Open Sans" sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  color: $primary-color-black;
+}
+
+.banner__title {
+  font-weight: 800;
+  font-size: 3.5rem;
+  letter-spacing: 2rem;
+
+  &--header {
+    color: #fff;
+  }
+}
+
+.home__header {
+  text-align: center;
+
+  &--primary {
+    font-size: 3rem;
+    letter-spacing: 0.5rem;
+    font-weight: 800;
+  }
+
+  &--secondary {
+    font-size: 2rem;
+    font-family: $secondary-fonts;
+    font-weight: 200;
+  }
+}
+
+.homeCards {
+  p {
+    font-family: $secondary-fonts;
+    font-weight: 200;
+    font-size: 1.2rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+    font-weight: lighter;
+  }
+}
