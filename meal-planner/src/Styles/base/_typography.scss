@@ -43,3 +43,19 @@ body {
     font-weight: lighter;
   }
 }
+
+.homeCards-popular {
+  &__header {
+    font-size: 1.8rem;
+  }
+
+  &__title {
+    font-size: 1.8rem;
+    letter-spacing: 0.1rem;
+  }
+
+  &__text-paragraph {
+    font-size: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}

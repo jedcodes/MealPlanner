@@ -26,4 +26,45 @@
 
 .homeCards-popular {
   max-width: 100%;
+  display: flex;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+  margin-top: 3rem;
+  background-color: #fff;
+
+  &__image {
+    max-width: 400px;
+    height: 100%;
+    flex: 0 0 45%;
+  }
+
+  &__img {
+    width: 100%;
+    display: block;
+  }
+
+  &__description {
+    flex: 1;
+    padding: 2rem 0 0 3rem;
+  }
+
+  &__header {
+    display: flex;
+    align-items: center;
+
+    span {
+      margin-left: 0.5rem;
+    }
+  }
+
+  &__duration {
+    margin-right: 2rem;
+  }
+
+  &__text {
+    margin-top: 1rem;
+  }
+
+  &__title {
+    margin-bottom: 1rem;
+  }
 }

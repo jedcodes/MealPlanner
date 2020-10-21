@@ -1,0 +1,29 @@
+.footer {
+  text-align: center;
+  margin-top: 10rem;
+
+  &__top {
+    display: flex;
+    margin: 0 auto;
+    width: 50%;
+    justify-content: space-around;
+  }
+
+  &__subscribe {
+    margin: 5rem auto 0 auto;
+    max-width: 80rem;
+
+    &-form {
+      display: flex;
+      justify-content: center;
+    }
+    &-input {
+      border: 5px solid #000000;
+      flex: 0 0 70%;
+    }
+    &-button {
+      background-color: tomato;
+      flex: 1;
+    }
+  }
+}
